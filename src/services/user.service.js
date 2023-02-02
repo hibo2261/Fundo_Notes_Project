@@ -37,7 +37,7 @@ export const login = async (body) => {
       throw new Error("Please Enter Valid Password....")
     }
  
-    let token = jwt.sign({email : userdata.email},process.env.JWT_SECRET_KEY)
+    let token = jwt.sign({email : userdata.email, id: User._id  },process.env.JWT_SECRET_KEY)
 
     return token;
   }
