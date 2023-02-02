@@ -1,6 +1,7 @@
 import User from '../models/user.model';
 const bcrypt = require('bcrypt')
 import jwt from 'jsonwebtoken';
+import  {sendMail}  from '../utils/user.util';
 
 
 
@@ -45,4 +46,36 @@ export const login = async (body) => {
     throw new Error(error)
   }
 
+};
+
+
+//--------> Forget password
+export const  forgetPassword = async (body) => {
+  const data = await User.findOne({ "email": body.email });
+  
+  if (data != null) {
+      const token = await jwt.sign({ email : data.email,_id : User._id }, process.env.PASSWORDKEY);
+ console.log("-------------------------------------------",token)
+     const mailsend = await sendMail(data.email, token);
+    return mailsend;
+  } else {
+    throw new Error("Email not found");
+  }
+}
+
+export const resetPassword = async (token, body) => {
+  const saltRounds = 10;
+  const passwordHash = await bcrypt.hash(body.password,saltRounds);
+  body.password = passwordHash; 
+  const data = User.findOneAndUpdate(
+    {
+      email: body.email
+    },
+    {
+      password: body.password
+    },
+    {
+      new: true
+    })
+  return data;
 };

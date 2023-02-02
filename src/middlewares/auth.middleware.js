@@ -28,3 +28,24 @@ export const userAuth = async (req, res, next) => {
     next(error);
   }
 };
+
+
+export const userAuther= async (req, res, next) => {
+  try {
+    let bearertoken = req.params.token;
+    console.log("Bearer token-----------------",bearertoken);
+    if (!bearertoken)
+      throw {
+        code: HttpStatus.BAD_REQUEST,
+        message: `Authorization token is required`};
+
+    const user = await jwt.verify(bearertoken, process.env.PASSWORDKEY);
+    req.body.email = user.email;
+    next();
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `UnAuthorised token`
+    });
+  }
+};
