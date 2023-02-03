@@ -1,0 +1,14 @@
+info: ::1 - - [30/Jan/2023:11:16:25 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:17:26 +0000] "POST /api/v1/users/Userlogin HTTP/1.1" 500 98 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:19:52 +0000] "POST /api/v1/users/Userlogin HTTP/1.1" 500 98 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:19:57 +0000] "POST /api/v1/users/Userlogin HTTP/1.1" 500 98 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:21:45 +0000] "POST /api/v1/users/UserRegistration HTTP/1.1" 200 65 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:22:13 +0000] "POST /api/v1/users/Userlogin HTTP/1.1" 500 98 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:23:27 +0000] "POST /api/v1/users/Userlogin HTTP/1.1" 200 206 "-" "PostmanRuntime/7.30.0"
+

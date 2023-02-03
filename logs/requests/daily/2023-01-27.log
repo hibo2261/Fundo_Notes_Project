@@ -1,0 +1,96 @@
+info: ::1 - - [26/Jan/2023:18:38:13 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:18:38:18 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:18:38:43 +0000] "POST /api/v1/users HTTP/1.1" 500 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:18:43:50 +0000] "POST /api/v1/users HTTP/1.1" 201 266 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:18:44:12 +0000] "GET /api/v1/getall HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:18:45:38 +0000] "GET /api/v1/users/getall HTTP/1.1" 200 762 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:18:50:36 +0000] "GET /api/v1/users/:_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:03:35 +0000] "GET /api/v1/users/getall HTTP/1.1" 200 762 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:04:22 +0000] "GET /api/v1/users/_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:04:37 +0000] "GET /api/v1/users/:_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:04:39 +0000] "GET /api/v1/users/:_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:08:30 +0000] "DELETE /api/v1/users/:_id HTTP/1.1" 500 126 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:08:40 +0000] "DELETE /api/v1/users/_id HTTP/1.1" 500 125 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:14:39 +0000] "GET /api/v1/users/:_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:14:48 +0000] "GET /api/v1/users/_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:16:00 +0000] "GET /api/v1/users/:_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:18:33 +0000] "GET /api/v1/users/getall HTTP/1.1" 200 762 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:19:03 +0000] "GET /api/v1/users/63d11abed7e4ff1e14da2db2 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:20:10 +0000] "GET /api/v1/users/getall HTTP/1.1" 200 762 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:20:53 +0000] "GET /api/v1/users/%2263d11abed7e4ff1e14da2db2%22 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:22:09 +0000] "GET /api/v1/users/%2263d11abed7e4ff1e14da2db2%22 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:23:00 +0000] "GET /api/v1/users/_id HTTP/1.1" 200 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:23:09 +0000] "GET /api/v1/users/:_id HTTP/1.1" 200 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:23:33 +0000] "PUT /api/v1/users/:_id HTTP/1.1" 500 137 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:26:10 +0000] "PUT /api/v1/users/%2263d11abed7e4ff1e14da2db2%22 HTTP/1.1" 500 161 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:30:34 +0000] "PUT /api/v1/users/_id HTTP/1.1" 500 136 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:30:47 +0000] "GET /api/v1/users/_id HTTP/1.1" 200 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:37:25 +0000] "POST /api/v1/users HTTP/1.1" 201 254 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:38:21 +0000] "GET /api/v1/users/_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:38:28 +0000] "GET /api/v1/users/:_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:42:30 +0000] "GET /api/v1/users/:_id HTTP/1.1" 400 67 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:53:04 +0000] "GET /api/v1/users/getall HTTP/1.1" 200 959 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:19:54:17 +0000] "PUT /api/v1/users/firstname HTTP/1.1" 500 140 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:20:08:43 +0000] "GET /api/v1/users/_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:20:09:06 +0000] "GET /api/v1/users/_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:20:16:58 +0000] "GET /api/v1/users/_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:20:17:27 +0000] "GET /api/v1/users/_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:20:17:30 +0000] "GET /api/v1/users/_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:20:17:32 +0000] "GET /api/v1/users/_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:20:19:48 +0000] "GET /api/v1/users/getall HTTP/1.1" 200 959 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:20:24:56 +0000] "GET /api/v1/users/:_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:20:37:46 +0000] "GET /api/v1/users/:_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:20:37:48 +0000] "GET /api/v1/users/:_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:08:29:49 +0000] "POST /api/v1/users/registration HTTP/1.1" 500 81 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:08:32:42 +0000] "POST /api/v1/users/registration HTTP/1.1" 200 317 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:08:33:04 +0000] "POST /api/v1/users/login HTTP/1.1" 200 279 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:08:33:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 279 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:08:36:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 299 "-" "PostmanRuntime/7.30.0"
+

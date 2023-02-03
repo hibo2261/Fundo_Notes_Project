@@ -1,7 +1,7 @@
 import User from '../models/user.model';
 const bcrypt = require('bcrypt')
 import jwt from 'jsonwebtoken';
-import  {sendMail}  from '../utils/user.util';
+import {sendMail} from '../utils/user.util';
 
 
 
@@ -51,14 +51,16 @@ export const login = async (body) => {
 
 //--------> Forget password
 export const  forgetPassword = async (body) => {
-  const data = await User.findOne({ "email": body.email });
+
   
-  if (data != null) {
-      const token = await jwt.sign({ email : data.email,_id : User._id }, process.env.PASSWORDKEY);
- console.log("-------------------------------------------",token)
+  try{
+    const data = await User.findOne({ email: body.email });
+    console.log("---------------",data)
+      const token = await jwt.sign({ email : data.email , _id : User._id }, process.env.PASSWORDKEY);
+ console.log("-------------------------------------------",token);
      const mailsend = await sendMail(data.email, token);
     return mailsend;
-  } else {
+  } catch{
     throw new Error("Email not found");
   }
 }

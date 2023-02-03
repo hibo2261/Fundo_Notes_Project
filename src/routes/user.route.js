@@ -17,10 +17,10 @@ const router = express.Router();
 //router.delete('/:_id', userController.deleteUser);
 
 //route to get all users
-router.get('/getall', userController.getAllUsers);
+//router.get('/getall', userController.getAllUsers);
 
 //route to register a new user
-router.post('/UserRegistration', newUserValidator, userController.userRegistration);
+router.post('/', newUserValidator, userController.userRegistration);
 
 //route to login
 router.post('/Userlogin',userController.login);

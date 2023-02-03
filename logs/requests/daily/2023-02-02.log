@@ -1,0 +1,44 @@
+info: ::1 - - [02/Feb/2023:09:30:00 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:09:32:11 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:09:32:14 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:09:41:41 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:09:41:46 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:09:43:59 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:09:44:01 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:09:45:49 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:09:45:53 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:09:53:03 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:09:53:06 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 404 40 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:09:53:53 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 569 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:09:58:56 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 570 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:10:19:21 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 569 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:10:24:11 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 569 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:10:49:07 +0000] "POST /api/v1/users/forgetPassword HTTP/1.1" 200 569 "-" "PostmanRuntime/7.30.0"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2023:10:59:51 +0000] "GET /undefined HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2023:11:00:12 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hdnlhQGdtYWlsLmNvbSIsImlhdCI6MTY3NTMzNTU3M30.qAExWzDHKp3uYzWgJlNyP-ReDqS0j7_yOyvtme6zkqA HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"
+
+info: ::1 - - [02/Feb/2023:11:10:17 +0000] "POST /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjEyMjIzQG1haWwuY29tIiwiaWF0IjoxNjc1MzM0OTQzfQ.pf2-a7UeEqVolgumCM59UJyjxb1cz0JQHS2g4x0S_YM HTTP/1.1" 500 67 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [02/Feb/2023:11:10:58 +0000] "POST /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjEyMjIzQG1haWwuY29tIiwiaWF0IjoxNjc1MzM0OTQzfQ.pf2-a7UeEqVolgumCM59UJyjxb1cz0JQHS2g4x0S_YM HTTP/1.1" 200 321 "-" "PostmanRuntime/7.30.0"
+
+info: ::ffff:127.0.0.1 - - [02/Feb/2023:11:15:04 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoZXRuYUBnbWFpbC5jb20iLCJpYXQiOjE2NzUzMzY0Nzd9.aGksCbXYmg7mqbF3tsrxdHMVOgEmDC4nen0bMDCXjvg HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"
+
+info: ::1 - - [02/Feb/2023:18:18:00 +0000] "POST /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjEyMjIzQG1haWwuY29tIiwiaWF0IjoxNjc1MzM0OTQzfQ.pf2-a7UeEqVolgumCM59UJyjxb1cz0JQHS2g4x0S_YM HTTP/1.1" 200 321 "-" "PostmanRuntime/7.30.0"
+

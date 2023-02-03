@@ -1,0 +1,1964 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T06:35:30.076Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T06:35:32.708Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:00:55.288Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:00:57.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:04:20.459Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:04:23.796Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:07:10.072Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:07:12.386Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:10:56.680Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:11:04.406Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:11:21.981Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:19:08.913Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:19:22.216Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:19:24.705Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T07:48:37.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:54:15.806Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:54:18.306Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:54:27.898Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:54:30.150Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:54:38.889Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:54:41.250Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:55:23.898Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:55:30.821Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:55:33.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:57:27.195Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:57:29.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:57:58.153Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:58:00.344Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:58:43.502Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:58:46.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:59:09.531Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:59:12.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T08:00:10.237Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T08:00:27.480Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T08:00:29.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T08:02:21.533Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T08:02:24.078Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T08:02:31.161Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T08:02:33.997Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token h in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:83:15)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:36:30.004Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:49:00.993Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:49:03.298Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:50:58.738Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 3 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:51:14.581Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:56:06.425Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:56:08.888Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:56:41.544Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:56:43.761Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:57:17.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:57:42.396Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:57:44.536Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.email is not a function
+    at newUserValidator (E:\youir\awesome-project\src\validators\/user.validator.js:6:17)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\youir\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\youir\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:58:16.859Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.email is not a function
+    at newUserValidator (E:\youir\awesome-project\src\validators\/user.validator.js:6:17)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\youir\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\youir\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:58:48.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T12:01:26.733Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T12:01:29.077Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.email is not a function
+    at newUserValidator (E:\youir\awesome-project\src\validators\/user.validator.js:6:17)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\youir\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T12:01:43.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T12:02:31.683Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T12:02:33.941Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T12:03:39.560Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T12:03:41.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T12:23:38.393Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T12:23:40.724Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T16:18:13.291Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T16:18:16.018Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:23:00.712Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T18:23:03.020Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:26:55.439Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T18:26:57.670Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:34:42.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:34:45.346Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T18:34:47.535Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:35:08.914Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T18:35:11.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:35:27.960Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:35:43.414Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T18:35:45.612Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:35:48.847Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T18:35:51.067Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:35:56.232Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:36:00.881Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T18:36:03.061Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:36:28.076Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T18:36:30.300Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:36:57.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:37:02.090Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T18:37:04.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:38:03.881Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T18:38:06.180Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.password is not a function
+    at newUserValidator (E:\youir\awesome-project\src\validators\/user.validator.js:8:19)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\youir\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\youir\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:38:43.417Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token f in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:40:26.309Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token Y in JSON at position 15
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:41:06.977Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token Y in JSON at position 17
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:41:23.967Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 29
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:41:41.930Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 29
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:42:56.685Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:43:25.476Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 29
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:43:27.194Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T18:43:27.779Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:46:40.400Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T18:50:17.372Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T18:50:19.584Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token " in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:83:15)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:50:21.058Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T18:50:36.238Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:04:22.091Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:04:37.539Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:04:39.445Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:08:30.554Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:08:40.962Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:10:30.470Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:10:32.841Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:11:09.541Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:11:11.671Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:11:56.345Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:11:58.774Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:12:25.695Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:12:28.042Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:13:04.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:13:20.976Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:13:23.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:13:31.331Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:13:33.747Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:14:39.905Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:14:48.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:15:36.452Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:15:38.931Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:16:00.245Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:16:56.488Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:16:58.819Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/63d11abed7e4ff1e14da2db2 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:19:03.767Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:19:43.334Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/getall 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:19:57.395Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/getall 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:20:01.485Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/%2263d11abed7e4ff1e14da2db2%22 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:20:53.041Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:22:00.640Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:22:03.227Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':_id' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/:_id 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:23:33.032Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '"63d11abed7e4ff1e14da2db2"' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/%2263d11abed7e4ff1e14da2db2%22 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:26:10.748Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '_id' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/_id 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:30:34.416Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:31:32.748Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:31:35.710Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:38:21.197Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:38:28.399Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:42:24.829Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:42:28.792Z"}
+error: 
+      status - 400
+      message - Authorization token is required n,fnwfnw,f 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:42:30.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:43:30.467Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:43:33.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:52:06.970Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:52:09.301Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:52:34.607Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:52:37.167Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/firstname 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:54:17.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:54:46.611Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:54:49.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:55:05.647Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:55:08.221Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T20:08:32.398Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:08:34.703Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:08:43.735Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:09:06.476Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T20:16:38.315Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:16:40.644Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:16:58.124Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:17:27.503Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:17:30.019Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:17:32.815Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T20:22:52.717Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:22:54.946Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:24:56.718Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T20:25:35.329Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:25:37.575Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:37:46.049Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:37:48.542Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T08:29:39.246Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T08:29:41.945Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.userRegistration is not a function
+    at _callee6$ (E:\youir\awesome-project\src\controllers\/user.controller.js:104:36)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userRegistration (E:\youir\awesome-project\src\controllers\/user.controller.js:102:30)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (E:\youir\awesome-project\src\validators\/user.validator.js:15:5)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\youir\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\youir\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T08:29:49.253Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T08:32:31.191Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T08:32:33.738Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T08:36:22.797Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T08:36:25.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:18:36.972Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:18:39.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:18:51.930Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:19:00.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:19:05.852Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:19:12.147Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:19:14.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:19:19.736Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:19:21.888Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:19:32.214Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:20:02.893Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:20:05.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:20:12.034Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:20:14.359Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:20:22.544Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:20:31.496Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:20:33.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:20:48.750Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:20:51.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:21:51.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:21:54.733Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:21:57.060Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:22:03.365Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:22:05.553Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:22:12.554Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:22:14.762Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:22:45.274Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:22:47.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:26:50.827Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:26:55.780Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:26:57.986Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:57:04.646Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:57:08.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T12:00:23.365Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:00:25.651Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T11:16:13.604Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:16:16.755Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of undefined (reading 'sign')
+    at _callee3$ (E:\youir\awesome-project\src\services\/user.service.js:45:11)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Userlogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:17:26.278Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T11:19:28.704Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:19:31.030Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of undefined (reading 'sign')
+    at _callee3$ (E:\youir\awesome-project\src\services\/user.service.js:45:11)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Userlogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:19:52.851Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of undefined (reading 'sign')
+    at _callee3$ (E:\youir\awesome-project\src\services\/user.service.js:45:11)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Userlogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:19:57.605Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of undefined (reading 'sign')
+    at _callee3$ (E:\youir\awesome-project\src\services\/user.service.js:45:11)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Userlogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:22:13.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T11:23:19.480Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:23:22.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T19:11:21.473Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T19:11:23.987Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T19:18:49.617Z"}
+error: uncaughtException: note is not defined
+ReferenceError: note is not defined
+    at routes (E:\youir\awesome-project\src\routes\/index.js:16:24)
+    at Object.<anonymous> (E:\youir\awesome-project\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Jan 31 2023 00:48:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1658680},"process":{"argv":["node","E:\\youir\\awesome-project\\src\\index.js"],"cwd":"E:\\youir\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19094258,"external":20594800,"heapTotal":92958720,"heapUsed":58328904,"rss":129503232},"pid":23192,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: note is not defined\n    at routes (E:\\youir\\awesome-project\\src\\routes\\/index.js:16:24)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-01-30T19:18:55.042Z","trace":[{"column":24,"file":"E:\\youir\\awesome-project\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"E:\\youir\\awesome-project\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (E:\youir\awesome-project\src\routes\/index.js:16:24)
+    at Object.<anonymous> (E:\youir\awesome-project\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Jan 31 2023 00:49:16 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1658701},"process":{"argv":["node","E:\\youir\\awesome-project\\src\\index.js"],"cwd":"E:\\youir\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19094258,"external":20594800,"heapTotal":92958720,"heapUsed":58103368,"rss":130527232},"pid":22380,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (E:\\youir\\awesome-project\\src\\routes\\/index.js:16:24)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-01-30T19:19:16.928Z","trace":[{"column":24,"file":"E:\\youir\\awesome-project\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"E:\\youir\\awesome-project\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (E:\youir\awesome-project\src\routes\/index.js:16:24)
+    at Object.<anonymous> (E:\youir\awesome-project\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Jan 31 2023 00:50:17 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1658762},"process":{"argv":["node","E:\\youir\\awesome-project\\src\\index.js"],"cwd":"E:\\youir\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18734065,"external":20234607,"heapTotal":91385856,"heapUsed":48171240,"rss":128077824},"pid":10456,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (E:\\youir\\awesome-project\\src\\routes\\/index.js:16:24)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-01-30T19:20:17.166Z","trace":[{"column":24,"file":"E:\\youir\\awesome-project\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"E:\\youir\\awesome-project\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (E:\youir\awesome-project\src\routes\/index.js:16:24)
+    at Object.<anonymous> (E:\youir\awesome-project\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Jan 31 2023 00:50:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1658769},"process":{"argv":["node","E:\\youir\\awesome-project\\src\\index.js"],"cwd":"E:\\youir\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18725873,"external":20226415,"heapTotal":91123712,"heapUsed":48194752,"rss":128045056},"pid":18052,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (E:\\youir\\awesome-project\\src\\routes\\/index.js:16:24)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-01-30T19:20:24.757Z","trace":[{"column":24,"file":"E:\\youir\\awesome-project\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"E:\\youir\\awesome-project\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T19:33:23.159Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T19:33:26.272Z"}
+error: 
+    status - 500 
+    message - ValidationError: "titel" is required 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T19:35:08.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T19:38:33.125Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T19:38:36.294Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T19:42:24.769Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T19:42:27.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T19:42:48.912Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T19:42:51.267Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:12:04.401Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:12:06.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:18:11.774Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:18:20.583Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:18:22.920Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:33:45.862Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:33:48.272Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:34:07.093Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:34:09.369Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:40:42.094Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:40:44.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:41:04.898Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:41:07.108Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:41:25.629Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:41:27.882Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:53:39.607Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:53:58.546Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:54:00.837Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T10:44:58.462Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T10:45:02.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T10:46:37.632Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T10:46:41.060Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T10:57:37.429Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T10:57:40.436Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T10:57:53.217Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T10:57:55.970Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:47)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/getall 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T10:58:40.046Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T10:59:20.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T10:59:42.618Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T10:59:45.217Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:47)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/getall 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T10:59:57.190Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:01:50.274Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:01:52.969Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:47)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T11:03:20.072Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:13:29.175Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:13:31.572Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:47)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T11:13:41.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:15:02.301Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:15:04.742Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:15:41.214Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:15:43.554Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:21:56.345Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:21:58.985Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:22:50.352Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:22:52.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:23:28.097Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:23:30.649Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:51:32.839Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:51:35.449Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:52:41.554Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:52:44.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:56:07.325Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:56:10.157Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:57:42.958Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:57:45.399Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:39:12.270Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:39:15.717Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:40:08.012Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:40:10.199Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:40:49.445Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:40:52.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:41:13.514Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:41:16.048Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:42:26.903Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:42:29.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:43:41.856Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:43:44.212Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:44:16.434Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:44:18.624Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:44:31.120Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:44:33.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:45:24.528Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:45:26.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:47:10.663Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:47:13.052Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:47:42.200Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:47:44.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:48:09.193Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:48:11.520Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:49:24.643Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:49:26.992Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:18:41.973Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:18:44.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:18:52.137Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:18:54.229Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:24:03.083Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:24:05.262Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:25:33.408Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:25:35.691Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:34:16.504Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:34:18.942Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:34:38.396Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:34:40.576Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee3$ (E:\youir\awesome-project\src\services\/note.service.js:24:47)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAll (E:\youir\awesome-project\src\services\/note.service.js:23:20)
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:34:45.964Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:36:32.281Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:36:36.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:37:21.671Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:37:23.859Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:44:47.599Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:44:49.828Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:45:23.501Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:45:25.658Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:47:28.122Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:47:30.341Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '12223@mail.com', UserID: { userId: '12223@mail.com' } }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:48:51.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:49:51.268Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:49:53.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:50:03.825Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:50:06.161Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee6$ (E:\youir\awesome-project\src\services\/note.service.js:44:17)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.archiveNotes (E:\youir\awesome-project\src\services\/note.service.js:42:28)
+    at _callee6$ (E:\youir\awesome-project\src\controllers\/note.controller.js:77:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at archiveNotes (E:\youir\awesome-project\src\controllers\/note.controller.js:75:26)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:50:18.962Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee6$ (E:\youir\awesome-project\src\services\/note.service.js:44:17)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.archiveNotes (E:\youir\awesome-project\src\services\/note.service.js:42:28)
+    at _callee6$ (E:\youir\awesome-project\src\controllers\/note.controller.js:77:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at archiveNotes (E:\youir\awesome-project\src\controllers\/note.controller.js:75:26)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:50:23.135Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:52:47.566Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:52:49.929Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:53:07.498Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:53:17.326Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:53:19.456Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee6$ (E:\youir\awesome-project\src\services\/note.service.js:44:17)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.archiveNotes (E:\youir\awesome-project\src\services\/note.service.js:42:28)
+    at _callee6$ (E:\youir\awesome-project\src\controllers\/note.controller.js:77:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at archiveNotes (E:\youir\awesome-project\src\controllers\/note.controller.js:75:26)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:53:28.818Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee6$ (E:\youir\awesome-project\src\services\/note.service.js:44:17)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.archiveNotes (E:\youir\awesome-project\src\services\/note.service.js:42:28)
+    at _callee6$ (E:\youir\awesome-project\src\controllers\/note.controller.js:77:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at archiveNotes (E:\youir\awesome-project\src\controllers\/note.controller.js:75:26)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:53:30.721Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee6$ (E:\youir\awesome-project\src\services\/note.service.js:44:17)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.archiveNotes (E:\youir\awesome-project\src\services\/note.service.js:42:28)
+    at _callee6$ (E:\youir\awesome-project\src\controllers\/note.controller.js:77:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at archiveNotes (E:\youir\awesome-project\src\controllers\/note.controller.js:75:26)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:53:31.859Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:53:45.851Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:53:48.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T20:03:44.586Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T20:03:46.910Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T20:05:08.067Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T20:05:10.480Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T20:05:42.548Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T20:05:44.767Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '12223@mail.com', userId: { userId: '12223@mail.com' } }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/Archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T20:06:22.246Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{
+  _id: '12223@mail.com',
+  userId: {
+    titel: 'biswaseknumber',
+    description: 'g;kdsg;lffccfffg;lsdmgsm',
+    userId: '12223@mail.com'
+  }
+}" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/Archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T20:07:21.197Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T20:13:54.249Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T20:13:56.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T20:14:28.543Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T20:14:30.708Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T20:18:56.187Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T20:18:58.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T20:21:19.296Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T20:21:21.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T20:22:16.471Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T20:22:18.735Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T20:22:44.105Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T20:22:47.582Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T20:24:05.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T20:24:12.063Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T20:24:14.359Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T20:26:39.390Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T20:26:43.736Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T21:43:27.552Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T21:43:30.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T22:03:05.482Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T22:03:08.085Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T22:03:50.044Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T22:03:52.528Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T22:08:21.412Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T22:08:23.812Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T03:48:11.347Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T03:48:13.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T03:59:37.513Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T03:59:39.826Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:02:22.291Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:02:24.595Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:03:41.353Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:03:43.652Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:07:36.281Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:07:46.218Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:07:48.530Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:10:11.002Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:10:13.281Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:11:28.637Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:11:30.874Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:11:48.604Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:11:50.861Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee3$ (E:\youir\awesome-project\src\services\/note.service.js:24:42)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAll (E:\youir\awesome-project\src\services\/note.service.js:23:20)
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-01T04:12:07.061Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:12:36.400Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:12:38.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:15:27.626Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:15:34.348Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:15:36.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:17:44.099Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:17:55.082Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:17:57.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:19:56.400Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:19:58.734Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:21:28.460Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:21:30.668Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Notes is not defined
+    at _callee3$ (E:\youir\awesome-project\src\services\/note.service.js:23:35)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAll (E:\youir\awesome-project\src\services\/note.service.js:23:20)
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-01T04:21:34.516Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:21:45.871Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:21:48.113Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:22:54.650Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:22:57.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:26:09.596Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:26:11.928Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:29:14.140Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:29:16.369Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:29:45.818Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:29:47.937Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:31:39.889Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:31:42.405Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:32:10.153Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:32:12.441Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:33:19.069Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:33:25.186Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:33:27.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T04:33:57.902Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T04:34:00.086Z"}
+error: 
+    status - 500 
+    message - ValidationError: "titel" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-01T04:40:53.632Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T05:15:34.928Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T05:15:37.327Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T08:51:47.108Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T08:51:49.491Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T08:52:56.640Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T08:52:59.206Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T08:53:13.238Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T08:53:15.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T08:53:22.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T08:53:26.335Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T08:53:28.457Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T08:55:05.920Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T08:55:08.180Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T08:55:18.431Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T09:00:44.339Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T09:00:48.767Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T09:04:35.652Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T09:04:40.105Z"}
+error: uncaughtException: _id is not defined
+ReferenceError: _id is not defined
+    at E:\youir\awesome-project\src\services\/note.service.js:54:26
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\src\services\/note.service.js:52:22)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\controllers\/note.controller.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\routes\/note.route.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\routes\/index.js:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Wed Feb 01 2023 14:34:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1794622},"process":{"argv":["node","E:\\youir\\awesome-project\\src\\index.js"],"cwd":"E:\\youir\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18346480,"external":21227522,"heapTotal":92696576,"heapUsed":50751736,"rss":128765952},"pid":1884,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: _id is not defined\n    at E:\\youir\\awesome-project\\src\\services\\/note.service.js:54:26\n    at new Promise (<anonymous>)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\services\\/note.service.js:52:22)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\controllers\\/note.controller.js:2:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\routes\\/note.route.js:2:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\routes\\/index.js:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-01T09:04:40.200Z","trace":[{"column":26,"file":"E:\\youir\\awesome-project\\src\\services\\/note.service.js","function":null,"line":54,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":22,"file":"E:\\youir\\awesome-project\\src\\services\\/note.service.js","function":null,"line":52,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\controllers\\/note.controller.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\routes\\/note.route.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\routes\\/index.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T09:04:47.063Z"}
+error: uncaughtException: _id is not defined
+ReferenceError: _id is not defined
+    at E:\youir\awesome-project\src\services\/note.service.js:54:26
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\src\services\/note.service.js:52:22)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\controllers\/note.controller.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\routes\/note.route.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\routes\/index.js:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Wed Feb 01 2023 14:34:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1794629},"process":{"argv":["node","E:\\youir\\awesome-project\\src\\index.js"],"cwd":"E:\\youir\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19411737,"external":20931374,"heapTotal":92401664,"heapUsed":61405728,"rss":129863680},"pid":11804,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: _id is not defined\n    at E:\\youir\\awesome-project\\src\\services\\/note.service.js:54:26\n    at new Promise (<anonymous>)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\services\\/note.service.js:52:22)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\controllers\\/note.controller.js:2:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\routes\\/note.route.js:2:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\routes\\/index.js:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-01T09:04:47.121Z","trace":[{"column":26,"file":"E:\\youir\\awesome-project\\src\\services\\/note.service.js","function":null,"line":54,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":22,"file":"E:\\youir\\awesome-project\\src\\services\\/note.service.js","function":null,"line":52,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\controllers\\/note.controller.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\routes\\/note.route.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\routes\\/index.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T09:19:33.353Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T09:19:35.970Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T09:20:32.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T09:21:45.883Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T09:21:48.222Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T09:23:48.445Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T09:23:50.811Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T10:51:43.744Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T10:51:46.465Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T10:58:16.119Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T10:58:19.326Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T10:58:40.138Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T10:58:42.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T10:59:07.161Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T10:59:18.603Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T10:59:21.055Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T10:59:56.388Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T10:59:58.871Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T11:02:31.544Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T11:02:34.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T11:03:05.738Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T11:03:08.062Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T11:04:56.757Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T11:04:59.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T11:07:17.109Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T11:07:20.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T11:35:00.700Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T11:35:03.222Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:29:49.973Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:29:52.587Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:37:14.571Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:37:17.211Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:38:10.317Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:38:12.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:41:31.596Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:41:33.992Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:43:50.548Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:43:53.037Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:45:34.532Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:45:37.049Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:52:52.349Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:52:54.984Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:53:42.142Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:53:44.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:57:30.847Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:57:34.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:57:54.414Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:58:09.649Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:58:12.109Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:12:41.761Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:12:45.069Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:17:29.406Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:17:31.829Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (E:\youir\FUNDO NOTES\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (E:\youir\FUNDO NOTES\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\FUNDO NOTES\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\FUNDO NOTES\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32) {"date":"Thu Feb 02 2023 15:47:49 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1885412},"process":{"argv":["node","E:\\youir\\FUNDO NOTES\\src\\index.js"],"cwd":"E:\\youir\\FUNDO NOTES","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18732715,"external":21357426,"heapTotal":121106432,"heapUsed":88772848,"rss":165277696},"pid":15920,"uid":null,"version":"v18.12.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1485:16)\n    at listenInCluster (node:net:1533:12)\n    at Server.listen (node:net:1621:7)\n    at Function.listen (E:\\youir\\FUNDO NOTES\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (E:\\youir\\FUNDO NOTES\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\FUNDO NOTES\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\FUNDO NOTES\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\youir\\FUNDO NOTES\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)","timestamp":"2023-02-02T10:17:49.303Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1485,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1533,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1621,"method":"listen","native":false},{"column":24,"file":"E:\\youir\\FUNDO NOTES\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"E:\\youir\\FUNDO NOTES\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\FUNDO NOTES\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\FUNDO NOTES\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\youir\\FUNDO NOTES\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:19:09.117Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:19:11.833Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:23:58.199Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:24:00.660Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:26:52.173Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:26:54.991Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:27:29.853Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:27:32.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:28:57.126Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:28:59.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:29:52.878Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:29:55.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:41:11.947Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:41:14.164Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:48:41.551Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:48:45.008Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (E:\youir\FUNDO NOTES\node_modules\bcrypt\bcrypt.js:137:17)
+    at E:\youir\FUNDO NOTES\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (E:\youir\FUNDO NOTES\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (E:\youir\FUNDO NOTES\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee5$ (E:\youir\FUNDO NOTES\src\services\/user.service.js:68:37)
+    at tryCatch (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.resetPassword (E:\youir\FUNDO NOTES\src\services\/user.service.js:66:27)
+    at _callee5$ (E:\youir\FUNDO NOTES\src\controllers\/user.controller.js:69:36)
+    at tryCatch (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at resetPassword (E:\youir\FUNDO NOTES\src\controllers\/user.controller.js:67:27)
+    at Layer.handle [as handle_request] (E:\youir\FUNDO NOTES\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\FUNDO NOTES\node_modules\express\lib\router\route.js:144:13)
+    at _callee2$ (E:\youir\FUNDO NOTES\src\middlewares\/auth.middleware.js:45:5)
+    at tryCatch (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjEyMjIzQG1haWwuY29tIiwiaWF0IjoxNjc1MzM0OTQzfQ.pf2-a7UeEqVolgumCM59UJyjxb1cz0JQHS2g4x0S_YM 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T11:10:17.452Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T18:11:04.785Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T18:11:07.300Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T18:15:07.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T18:15:39.571Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T18:17:46.778Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T18:17:49.590Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T18:19:29.170Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T18:19:31.798Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T18:23:54.623Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T18:23:57.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T02:43:06.945Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T02:43:09.512Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T02:50:03.808Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T02:50:06.280Z"}
+error: 
+    status - 500 
+    message - Error: User already exist
+    at _callee2$ (E:\youir\FUNDO NOTES\src\services\/user.service.js:25:11)
+    at tryCatch (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users//UserRegistration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-03T02:54:21.119Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:01:45.189Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:01:47.539Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:04:17.697Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:04:20.141Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:06:07.379Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:06:09.679Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:20:02.943Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:20:05.604Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:20:45.965Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:20:48.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:23:38.338Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:23:41.652Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:27:40.551Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:27:43.922Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:30:53.663Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:30:57.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:31:44.556Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:31:53.093Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:38:59.998Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:39:03.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:43:03.660Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:43:06.406Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:43:38.399Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:43:40.981Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:45:06.898Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:45:09.500Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:45:42.077Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:45:44.991Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:47:13.613Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:47:18.687Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:49:04.093Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:49:07.015Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:50:16.757Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:50:19.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:50:38.962Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:50:41.298Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:52:10.090Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:52:12.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:53:19.827Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:53:22.205Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:54:41.133Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:54:43.731Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T03:58:31.868Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T03:58:34.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T08:58:11.152Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T08:58:13.790Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T09:06:31.789Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T09:06:34.274Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T09:09:09.750Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T09:09:12.138Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T09:13:22.037Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T09:13:24.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T09:14:46.164Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T09:14:48.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T09:17:07.561Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T09:17:10.079Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T09:18:34.668Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T09:18:37.021Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T09:19:50.419Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T09:19:52.814Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T09:25:18.410Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T09:25:20.965Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T09:37:05.435Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T09:37:08.006Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T09:39:10.427Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T09:39:12.900Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T09:42:48.305Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T09:42:51.045Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T09:50:55.696Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T09:50:58.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T09:51:24.463Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T09:51:27.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T09:52:48.462Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T09:52:51.085Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T10:17:45.174Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T10:17:47.761Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T10:21:07.264Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T10:21:09.756Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T10:22:11.629Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T10:22:13.993Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T10:22:56.308Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T10:22:58.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T10:25:23.693Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T10:25:26.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T10:53:40.656Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T10:53:42.977Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T10:53:53.963Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T10:53:56.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T10:56:53.308Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T10:56:55.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T11:17:49.879Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T11:17:52.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T11:21:40.635Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T11:21:43.100Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T11:22:32.237Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T11:23:00.017Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T11:23:02.862Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-03T11:24:42.861Z"}
+info: Connected to the database. {"timestamp":"2023-02-03T11:24:45.540Z"}

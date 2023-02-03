@@ -1,0 +1,58 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T11:16:13.604Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:16:16.755Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of undefined (reading 'sign')
+    at _callee3$ (E:\youir\awesome-project\src\services\/user.service.js:45:11)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Userlogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:17:26.278Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T11:19:28.704Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:19:31.030Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of undefined (reading 'sign')
+    at _callee3$ (E:\youir\awesome-project\src\services\/user.service.js:45:11)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Userlogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:19:52.851Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of undefined (reading 'sign')
+    at _callee3$ (E:\youir\awesome-project\src\services\/user.service.js:45:11)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Userlogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:19:57.605Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of undefined (reading 'sign')
+    at _callee3$ (E:\youir\awesome-project\src\services\/user.service.js:45:11)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Userlogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:22:13.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T11:23:19.480Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:23:22.246Z"}

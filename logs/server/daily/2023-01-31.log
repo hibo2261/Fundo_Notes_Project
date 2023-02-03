@@ -1,0 +1,175 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T19:11:21.473Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T19:11:23.987Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T19:18:49.617Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T19:19:19.541Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T19:20:19.748Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T19:33:23.159Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T19:33:26.272Z"}
+error: 
+    status - 500 
+    message - ValidationError: "titel" is required 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T19:35:08.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T19:38:33.125Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T19:38:36.294Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T19:42:24.769Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T19:42:27.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T19:42:48.912Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T19:42:51.267Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:12:04.401Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:12:06.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:18:11.774Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:18:20.583Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:18:22.920Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:33:45.862Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:33:48.272Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:34:07.093Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:34:09.369Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:40:42.094Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:40:44.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:41:04.898Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:41:07.108Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:41:25.629Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:41:27.882Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:53:39.607Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T05:53:58.546Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:54:00.837Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T10:44:58.462Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T10:45:02.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T10:46:37.632Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T10:46:41.060Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T10:57:37.429Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T10:57:40.436Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T10:57:53.217Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T10:57:55.970Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:47)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/getall 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T10:58:40.046Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T10:59:20.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T10:59:42.618Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T10:59:45.217Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:47)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/getall 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T10:59:57.190Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:01:50.274Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:01:52.969Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:47)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T11:03:20.072Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:13:29.175Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:13:31.572Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:47)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T11:13:41.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:15:02.301Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:15:04.742Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:15:41.214Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:15:43.554Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:21:56.345Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:21:58.985Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:22:50.352Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:22:52.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:23:28.097Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:23:30.649Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:51:32.839Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:51:35.449Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:52:41.554Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:52:44.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:56:07.325Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:56:10.157Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T11:57:42.958Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:57:45.399Z"}

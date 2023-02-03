@@ -1,0 +1,92 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:29:49.973Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:29:52.587Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:37:14.571Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:37:17.211Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:38:10.317Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:38:12.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:41:31.596Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:41:33.992Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:43:50.548Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:43:53.037Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:45:34.532Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:45:37.049Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:52:52.349Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:52:54.984Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:53:42.142Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:53:44.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:57:30.847Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:57:34.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:57:54.414Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T09:58:09.649Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T09:58:12.109Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:12:41.761Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:12:45.069Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:17:29.406Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:17:31.829Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:19:09.117Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:19:11.833Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:23:58.199Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:24:00.660Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:26:52.173Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:26:54.991Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:27:29.853Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:27:32.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:28:57.126Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:28:59.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:29:52.878Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:29:55.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:41:11.947Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:41:14.164Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T10:48:41.551Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T10:48:45.008Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (E:\youir\FUNDO NOTES\node_modules\bcrypt\bcrypt.js:137:17)
+    at E:\youir\FUNDO NOTES\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (E:\youir\FUNDO NOTES\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (E:\youir\FUNDO NOTES\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee5$ (E:\youir\FUNDO NOTES\src\services\/user.service.js:68:37)
+    at tryCatch (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.resetPassword (E:\youir\FUNDO NOTES\src\services\/user.service.js:66:27)
+    at _callee5$ (E:\youir\FUNDO NOTES\src\controllers\/user.controller.js:69:36)
+    at tryCatch (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at resetPassword (E:\youir\FUNDO NOTES\src\controllers\/user.controller.js:67:27)
+    at Layer.handle [as handle_request] (E:\youir\FUNDO NOTES\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\FUNDO NOTES\node_modules\express\lib\router\route.js:144:13)
+    at _callee2$ (E:\youir\FUNDO NOTES\src\middlewares\/auth.middleware.js:45:5)
+    at tryCatch (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjEyMjIzQG1haWwuY29tIiwiaWF0IjoxNjc1MzM0OTQzfQ.pf2-a7UeEqVolgumCM59UJyjxb1cz0JQHS2g4x0S_YM 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T11:10:17.452Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T18:11:04.785Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T18:11:07.300Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T18:15:07.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T18:15:39.571Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T18:17:46.778Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T18:17:49.590Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T18:19:29.170Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T18:19:31.798Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-02T18:23:54.623Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T18:23:57.379Z"}
