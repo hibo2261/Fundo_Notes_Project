@@ -1,0 +1,1389 @@
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T07:48:37.995Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token h in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:83:15)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:36:30.004Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:50:58.738Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 3 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:51:14.581Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.email is not a function
+    at newUserValidator (E:\youir\awesome-project\src\validators\/user.validator.js:6:17)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\youir\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\youir\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:58:16.859Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.email is not a function
+    at newUserValidator (E:\youir\awesome-project\src\validators\/user.validator.js:6:17)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\youir\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\youir\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:58:48.439Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.email is not a function
+    at newUserValidator (E:\youir\awesome-project\src\validators\/user.validator.js:6:17)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\youir\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T12:01:43.347Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.password is not a function
+    at newUserValidator (E:\youir\awesome-project\src\validators\/user.validator.js:8:19)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\youir\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\youir\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:38:43.417Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token f in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:40:26.309Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token Y in JSON at position 15
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:41:06.977Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token Y in JSON at position 17
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:41:23.967Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 29
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:41:41.930Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 29
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:42:56.685Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 29
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:43:27.194Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token " in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:83:15)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-26T18:50:21.058Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T18:50:36.238Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:04:22.091Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:04:37.539Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:04:39.445Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/:_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:08:30.554Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/_id 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:08:40.962Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:14:39.905Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:14:48.345Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:16:00.245Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/63d11abed7e4ff1e14da2db2 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:19:03.767Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:19:43.334Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/getall 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:19:57.395Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 27
+    at JSON.parse (<anonymous>)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/getall 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:20:01.485Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/%2263d11abed7e4ff1e14da2db2%22 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:20:53.041Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':_id' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/:_id 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:23:33.032Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '"63d11abed7e4ff1e14da2db2"' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/%2263d11abed7e4ff1e14da2db2%22 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:26:10.748Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '_id' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/_id 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:30:34.416Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:38:21.197Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:38:28.399Z"}
+error: 
+      status - 400
+      message - Authorization token is required n,fnwfnw,f 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:42:30.246Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/firstname 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:54:17.102Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:08:43.735Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:09:06.476Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:16:58.124Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:17:27.503Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:17:30.019Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:17:32.815Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:24:56.718Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:37:46.049Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:37:48.542Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.userRegistration is not a function
+    at _callee6$ (E:\youir\awesome-project\src\controllers\/user.controller.js:104:36)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userRegistration (E:\youir\awesome-project\src\controllers\/user.controller.js:102:30)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (E:\youir\awesome-project\src\validators\/user.validator.js:15:5)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\youir\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\youir\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/registration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T08:29:49.253Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of undefined (reading 'sign')
+    at _callee3$ (E:\youir\awesome-project\src\services\/user.service.js:45:11)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Userlogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:17:26.278Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of undefined (reading 'sign')
+    at _callee3$ (E:\youir\awesome-project\src\services\/user.service.js:45:11)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Userlogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:19:52.851Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of undefined (reading 'sign')
+    at _callee3$ (E:\youir\awesome-project\src\services\/user.service.js:45:11)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Userlogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:19:57.605Z"}
+error: 
+    status - 500 
+    message - Error: TypeError: Cannot read properties of undefined (reading 'sign')
+    at _callee3$ (E:\youir\awesome-project\src\services\/user.service.js:45:11)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Userlogin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:22:13.410Z"}
+error: uncaughtException: note is not defined
+ReferenceError: note is not defined
+    at routes (E:\youir\awesome-project\src\routes\/index.js:16:24)
+    at Object.<anonymous> (E:\youir\awesome-project\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Jan 31 2023 00:48:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1658680},"process":{"argv":["node","E:\\youir\\awesome-project\\src\\index.js"],"cwd":"E:\\youir\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19094258,"external":20594800,"heapTotal":92958720,"heapUsed":58328904,"rss":129503232},"pid":23192,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: note is not defined\n    at routes (E:\\youir\\awesome-project\\src\\routes\\/index.js:16:24)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-01-30T19:18:55.042Z","trace":[{"column":24,"file":"E:\\youir\\awesome-project\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"E:\\youir\\awesome-project\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (E:\youir\awesome-project\src\routes\/index.js:16:24)
+    at Object.<anonymous> (E:\youir\awesome-project\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Jan 31 2023 00:49:16 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1658701},"process":{"argv":["node","E:\\youir\\awesome-project\\src\\index.js"],"cwd":"E:\\youir\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19094258,"external":20594800,"heapTotal":92958720,"heapUsed":58103368,"rss":130527232},"pid":22380,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (E:\\youir\\awesome-project\\src\\routes\\/index.js:16:24)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-01-30T19:19:16.928Z","trace":[{"column":24,"file":"E:\\youir\\awesome-project\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"E:\\youir\\awesome-project\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (E:\youir\awesome-project\src\routes\/index.js:16:24)
+    at Object.<anonymous> (E:\youir\awesome-project\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Jan 31 2023 00:50:17 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1658762},"process":{"argv":["node","E:\\youir\\awesome-project\\src\\index.js"],"cwd":"E:\\youir\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18734065,"external":20234607,"heapTotal":91385856,"heapUsed":48171240,"rss":128077824},"pid":10456,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (E:\\youir\\awesome-project\\src\\routes\\/index.js:16:24)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-01-30T19:20:17.166Z","trace":[{"column":24,"file":"E:\\youir\\awesome-project\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"E:\\youir\\awesome-project\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (E:\youir\awesome-project\src\routes\/index.js:16:24)
+    at Object.<anonymous> (E:\youir\awesome-project\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Jan 31 2023 00:50:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1658769},"process":{"argv":["node","E:\\youir\\awesome-project\\src\\index.js"],"cwd":"E:\\youir\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18725873,"external":20226415,"heapTotal":91123712,"heapUsed":48194752,"rss":128045056},"pid":18052,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (E:\\youir\\awesome-project\\src\\routes\\/index.js:16:24)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-01-30T19:20:24.757Z","trace":[{"column":24,"file":"E:\\youir\\awesome-project\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"E:\\youir\\awesome-project\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "titel" is required 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T19:35:08.572Z"}
+error: 
+    status - 500 
+    message - ReferenceError: email is not defined
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:47)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/getall 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T10:58:40.046Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:47)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/getall 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T10:59:57.190Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:47)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T11:03:20.072Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:47)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T11:13:41.332Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'userId')
+    at _callee3$ (E:\youir\awesome-project\src\services\/note.service.js:24:47)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAll (E:\youir\awesome-project\src\services\/note.service.js:23:20)
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:34:45.964Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '12223@mail.com', UserID: { userId: '12223@mail.com' } }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:48:51.546Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee6$ (E:\youir\awesome-project\src\services\/note.service.js:44:17)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.archiveNotes (E:\youir\awesome-project\src\services\/note.service.js:42:28)
+    at _callee6$ (E:\youir\awesome-project\src\controllers\/note.controller.js:77:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at archiveNotes (E:\youir\awesome-project\src\controllers\/note.controller.js:75:26)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:50:18.962Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee6$ (E:\youir\awesome-project\src\services\/note.service.js:44:17)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.archiveNotes (E:\youir\awesome-project\src\services\/note.service.js:42:28)
+    at _callee6$ (E:\youir\awesome-project\src\controllers\/note.controller.js:77:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at archiveNotes (E:\youir\awesome-project\src\controllers\/note.controller.js:75:26)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:50:23.135Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee6$ (E:\youir\awesome-project\src\services\/note.service.js:44:17)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.archiveNotes (E:\youir\awesome-project\src\services\/note.service.js:42:28)
+    at _callee6$ (E:\youir\awesome-project\src\controllers\/note.controller.js:77:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at archiveNotes (E:\youir\awesome-project\src\controllers\/note.controller.js:75:26)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:53:28.818Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee6$ (E:\youir\awesome-project\src\services\/note.service.js:44:17)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.archiveNotes (E:\youir\awesome-project\src\services\/note.service.js:42:28)
+    at _callee6$ (E:\youir\awesome-project\src\controllers\/note.controller.js:77:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at archiveNotes (E:\youir\awesome-project\src\controllers\/note.controller.js:75:26)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:53:30.721Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserId is not defined
+    at _callee6$ (E:\youir\awesome-project\src\services\/note.service.js:44:17)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.archiveNotes (E:\youir\awesome-project\src\services\/note.service.js:42:28)
+    at _callee6$ (E:\youir\awesome-project\src\controllers\/note.controller.js:77:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at archiveNotes (E:\youir\awesome-project\src\controllers\/note.controller.js:75:26)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/isArchive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:53:31.859Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '12223@mail.com', userId: { userId: '12223@mail.com' } }" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/Archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T20:06:22.246Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{
+  _id: '12223@mail.com',
+  userId: {
+    titel: 'biswaseknumber',
+    description: 'g;kdsg;lffccfffg;lsdmgsm',
+    userId: '12223@mail.com'
+  }
+}" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (E:\youir\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/12223@mail.com/Archive 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T20:07:21.197Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee3$ (E:\youir\awesome-project\src\services\/note.service.js:24:42)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAll (E:\youir\awesome-project\src\services\/note.service.js:23:20)
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-01T04:12:07.061Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Notes is not defined
+    at _callee3$ (E:\youir\awesome-project\src\services\/note.service.js:23:35)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAll (E:\youir\awesome-project\src\services\/note.service.js:23:20)
+    at _callee3$ (E:\youir\awesome-project\src\controllers\/note.controller.js:33:40)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (E:\youir\awesome-project\src\controllers\/note.controller.js:31:20)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\youir\awesome-project\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-01T04:21:34.516Z"}
+error: 
+    status - 500 
+    message - ValidationError: "titel" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-01T04:40:53.632Z"}
+error: uncaughtException: _id is not defined
+ReferenceError: _id is not defined
+    at E:\youir\awesome-project\src\services\/note.service.js:54:26
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\src\services\/note.service.js:52:22)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\controllers\/note.controller.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\routes\/note.route.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\routes\/index.js:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Wed Feb 01 2023 14:34:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1794622},"process":{"argv":["node","E:\\youir\\awesome-project\\src\\index.js"],"cwd":"E:\\youir\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18346480,"external":21227522,"heapTotal":92696576,"heapUsed":50751736,"rss":128765952},"pid":1884,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: _id is not defined\n    at E:\\youir\\awesome-project\\src\\services\\/note.service.js:54:26\n    at new Promise (<anonymous>)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\services\\/note.service.js:52:22)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\controllers\\/note.controller.js:2:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\routes\\/note.route.js:2:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\routes\\/index.js:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-01T09:04:40.200Z","trace":[{"column":26,"file":"E:\\youir\\awesome-project\\src\\services\\/note.service.js","function":null,"line":54,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":22,"file":"E:\\youir\\awesome-project\\src\\services\\/note.service.js","function":null,"line":52,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\controllers\\/note.controller.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\routes\\/note.route.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\routes\\/index.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: _id is not defined
+ReferenceError: _id is not defined
+    at E:\youir\awesome-project\src\services\/note.service.js:54:26
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\awesome-project\src\services\/note.service.js:52:22)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\controllers\/note.controller.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\routes\/note.route.js:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\routes\/index.js:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\youir\awesome-project\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\youir\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Wed Feb 01 2023 14:34:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1794629},"process":{"argv":["node","E:\\youir\\awesome-project\\src\\index.js"],"cwd":"E:\\youir\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19411737,"external":20931374,"heapTotal":92401664,"heapUsed":61405728,"rss":129863680},"pid":11804,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: _id is not defined\n    at E:\\youir\\awesome-project\\src\\services\\/note.service.js:54:26\n    at new Promise (<anonymous>)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\services\\/note.service.js:52:22)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\controllers\\/note.controller.js:2:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\routes\\/note.route.js:2:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\routes\\/index.js:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Module.require (node:internal/modules/cjs/loader:1061:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-01T09:04:47.121Z","trace":[{"column":26,"file":"E:\\youir\\awesome-project\\src\\services\\/note.service.js","function":null,"line":54,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":22,"file":"E:\\youir\\awesome-project\\src\\services\\/note.service.js","function":null,"line":52,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\controllers\\/note.controller.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\routes\\/note.route.js","function":null,"line":2,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\routes\\/index.js","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1061,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"E:\\youir\\awesome-project\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\youir\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (E:\youir\FUNDO NOTES\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (E:\youir\FUNDO NOTES\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (E:\youir\FUNDO NOTES\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (E:\youir\FUNDO NOTES\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32) {"date":"Thu Feb 02 2023 15:47:49 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1885412},"process":{"argv":["node","E:\\youir\\FUNDO NOTES\\src\\index.js"],"cwd":"E:\\youir\\FUNDO NOTES","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18732715,"external":21357426,"heapTotal":121106432,"heapUsed":88772848,"rss":165277696},"pid":15920,"uid":null,"version":"v18.12.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1485:16)\n    at listenInCluster (node:net:1533:12)\n    at Server.listen (node:net:1621:7)\n    at Function.listen (E:\\youir\\FUNDO NOTES\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (E:\\youir\\FUNDO NOTES\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (E:\\youir\\FUNDO NOTES\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (E:\\youir\\FUNDO NOTES\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\youir\\FUNDO NOTES\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)","timestamp":"2023-02-02T10:17:49.303Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1485,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1533,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1621,"method":"listen","native":false},{"column":24,"file":"E:\\youir\\FUNDO NOTES\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"E:\\youir\\FUNDO NOTES\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"E:\\youir\\FUNDO NOTES\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"E:\\youir\\FUNDO NOTES\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\youir\\FUNDO NOTES\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (E:\youir\FUNDO NOTES\node_modules\bcrypt\bcrypt.js:137:17)
+    at E:\youir\FUNDO NOTES\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (E:\youir\FUNDO NOTES\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (E:\youir\FUNDO NOTES\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee5$ (E:\youir\FUNDO NOTES\src\services\/user.service.js:68:37)
+    at tryCatch (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.resetPassword (E:\youir\FUNDO NOTES\src\services\/user.service.js:66:27)
+    at _callee5$ (E:\youir\FUNDO NOTES\src\controllers\/user.controller.js:69:36)
+    at tryCatch (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at resetPassword (E:\youir\FUNDO NOTES\src\controllers\/user.controller.js:67:27)
+    at Layer.handle [as handle_request] (E:\youir\FUNDO NOTES\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\FUNDO NOTES\node_modules\express\lib\router\route.js:144:13)
+    at _callee2$ (E:\youir\FUNDO NOTES\src\middlewares\/auth.middleware.js:45:5)
+    at tryCatch (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IjEyMjIzQG1haWwuY29tIiwiaWF0IjoxNjc1MzM0OTQzfQ.pf2-a7UeEqVolgumCM59UJyjxb1cz0JQHS2g4x0S_YM 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T11:10:17.452Z"}
+error: 
+    status - 500 
+    message - Error: User already exist
+    at _callee2$ (E:\youir\FUNDO NOTES\src\services\/user.service.js:25:11)
+    at tryCatch (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\youir\FUNDO NOTES\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users//UserRegistration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-03T02:54:21.119Z"}

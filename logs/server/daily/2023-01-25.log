@@ -1,0 +1,206 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T06:35:30.076Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T06:35:32.708Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:00:55.288Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:00:57.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:04:20.459Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:04:23.796Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:07:10.072Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:07:12.386Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:10:56.680Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:11:04.406Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:11:21.981Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:19:08.913Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:19:22.216Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:19:24.705Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 4 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T07:48:37.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:54:15.806Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:54:18.306Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:54:27.898Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:54:30.150Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:54:38.889Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:54:41.250Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:55:23.898Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:55:30.821Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:55:33.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:57:27.195Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:57:29.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:57:58.153Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:58:00.344Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:58:43.502Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:58:46.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:59:09.531Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:59:12.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T08:00:10.237Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T08:00:27.480Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T08:00:29.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T08:02:21.533Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T08:02:24.078Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T08:02:31.161Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T08:02:33.997Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token h in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (E:\youir\awesome-project\node_modules\body-parser\lib\types\json.js:83:15)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:36:30.004Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:49:00.993Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:49:03.298Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:50:58.738Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 3 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:51:14.581Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:56:06.425Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:56:08.888Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:56:41.544Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:56:43.761Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:57:17.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:57:42.396Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:57:44.536Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.email is not a function
+    at newUserValidator (E:\youir\awesome-project\src\validators\/user.validator.js:6:17)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\youir\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\youir\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:58:16.859Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.email is not a function
+    at newUserValidator (E:\youir\awesome-project\src\validators\/user.validator.js:6:17)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\youir\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\youir\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at E:\youir\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\youir\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\youir\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\youir\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:58:48.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T12:01:26.733Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T12:01:29.077Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.email is not a function
+    at newUserValidator (E:\youir\awesome-project\src\validators\/user.validator.js:6:17)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\youir\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\youir\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\youir\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\youir\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at E:\youir\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\youir\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\youir\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\youir\awesome-project\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T12:01:43.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T12:02:31.683Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T12:02:33.941Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T12:03:39.560Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T12:03:41.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T12:23:38.393Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T12:23:40.724Z"}
