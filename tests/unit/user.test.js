@@ -1,8 +1,9 @@
 import { expect } from 'chai';
-import * as UserService from '../../src/services/user.service';
 import mongoose from 'mongoose';
-
 import dotenv from 'dotenv';
+
+import * as UserService from '../../src/services/user.service';
+
 dotenv.config();
 
 describe('User', () => {
