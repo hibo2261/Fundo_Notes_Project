@@ -1,0 +1,476 @@
+{
+"swagger": "2.0",
+"info": {
+    "version": "V1",
+    "title": " Fundo Notes App",
+    "description": "Swagger For Fundo"
+},
+"host": "localhost:3000",
+"basePath": "/api/v1/",
+"tags": [
+    {
+        "name": "Fundo Notes",
+        "description": " "
+    }
+   ],
+   "schemes": [
+       "http"
+   ],
+   "consumes": [
+       "application/json"
+   ],
+   "produces": [
+       "application/json"
+   ],
+   "paths": {
+       "/Users/": {
+           "post": {
+               "tags": ["User"],
+               "description": "CREATE NEW REGISTRATION.",
+               "parameters": [
+                   {
+                       "name": "Create User",
+                       "in": "body",
+                       "description": "User Input Details",
+                       "schema": {
+                           "$ref": "#/definitions/User"
+                       }
+                   }
+               ],
+               "produces": [
+                   "application/json"
+               ],
+               "responses": {
+                   "200": {
+                       "description": "New User Registration Done "
+                   },
+                   "500": {
+                       "description": "Internal server error"
+                   }
+               }
+           }
+       },
+       "/Users/Userlogin": {
+           "post": {
+               "tags": ["User"],
+               "description": "LOGIN",
+               "parameters": [
+                   {
+                      "name": "login User",
+                       "in": "body",
+                       "description": " User Login Input Details",
+                       "schema": {
+                           "$ref": "#/definitions/login"
+                       }
+                   }
+               ],
+               "produces": [
+                   "application/json"
+               ],
+               "responses": {
+                   "200": {
+                       "description": "User Login Done."
+                   },
+                   "500": {
+                       "description": "Internal server error"
+                   }
+               }
+           }
+       },
+
+       "/Users/forgetPassword": {
+        "post" : {
+            "tags" : [
+                "User"
+            ],
+            "description" : "FORGET PASSWORD.",
+            "parameters": [
+                {
+                    "name": "Forget password ",
+                    "in": "body",
+                    "description": "User Input Email",
+                    "schema": {
+                        "$ref": "#/definitions/forgetPassword"
+                    }
+                }
+            ],
+            "produces": [
+                "application/json"
+            ],
+            "responses": {
+                "200": {
+                    "description": "Forget Password Done."
+                },
+                "500": {
+                    "description": "Internal server error"
+                }
+
+
+        }
+    }
+      },
+
+      "/Users/resetpassword/{token}": {
+        "post": {
+            "tags": [
+                "User"
+            ],
+            "description": "RESET PASSWORD",
+            "parameters": [
+
+                {
+                    "name": "token",
+                    "in": "path",
+                    "type": "string"
+                  },
+
+
+
+                {
+                    "name": "Password reset",
+                    "in": "body",
+                    "description": "Users Input New password",
+                    "schema": {
+                        "$ref": "#/definitions/resetPassword"
+                    }
+                }
+            ],
+            "produces": [
+                "application/json"
+            ],
+            "responses": {
+                "200": {
+                    "description": "Reset Password Done."
+                },
+              
+                "500": {
+                    "description": "Internal Server Error"
+                }
+            },
+            "security": [
+                {
+                    "JWT": []
+                }
+            ]
+        }
+    },
+    "/notes": {
+        "post": {
+            "tags": [
+                "Notes"
+            ],
+            "description": "CREATE A NEW NOTE.",
+            "parameters": [
+                {
+                    "name": "Create Note",
+                    "in": "body",
+                    "description": "User Input Note ",
+                    "schema": {
+                        "$ref": "#/definitions/create_note"
+                    }
+                }
+            ],
+            "produces": [
+                "application/json"
+            ],
+            "responses": {
+                "201": {
+                    "description": "Note Creation Done."
+                },
+          
+                "500": {
+                    "description": "Internal Server Error"
+                }
+            },
+            "security": [
+                {
+                    "JWT": []
+                }
+            ]
+        },
+    
+  
+        "get": {
+            "tags": [
+                "Notes"
+            ],
+            "description": "Get All Notes",
+            
+            "produces": [
+                "application/json"
+            ],
+            "responses": {
+                "200": {
+                    "description": "Get All Notes Done. "
+                },
+               
+                "500": {
+                    "description": "Internal Server Error"
+                }
+            },
+            "security": [
+                {
+                    "JWT": []
+                }
+            ]
+        }
+    },
+
+
+
+    "/notes/{_id}": {
+        "get": {
+            "tags": [
+                "Notes"
+            ],
+            "description": "GET A NOTE",
+            "parameters": [
+                {
+                    "name": "_id",
+                    "in": "path",
+                   "description": "Input object id:"
+                }
+            ],                
+            "produces": [
+                "application/json"
+            ],
+            "responses": {
+                "202": {
+                    "description": "Get Note Done."
+                },
+           
+                "500": {
+                    "description": "Internal Server Error"
+                }
+            },
+            "security": [
+                {
+                    "JWT": []
+                }
+            ]
+        },
+        "delete": {
+            "tags": [
+                "Notes"
+            ],
+            "description": "DELETE A NOTE",
+            "parameters": [
+                {
+                    "name": "_id",
+                    "in": "path",
+                    "description": "Input object id:"
+                }
+            ],
+            "produces": [
+                "application/json"
+            ],
+            "responses": {
+                "202": {
+                    "description": "Delete Note Done."
+                },
+                
+                "500": {
+                    "description": "Internal Server Error"
+                }
+            },
+            "security": [
+                {
+                    "JWT": []
+                }
+            ]
+        },
+        "put": {
+            "tags": [
+                "Notes"
+            ],
+            "description": "UPDATE A NOTE",
+            "parameters": [
+                {
+                    "name": "_id",
+                    "in": "path",
+                    "description": "Input object id:"
+                },
+                {
+                    "name": "Update Note ",
+                    "in": "body",
+                    "description": "Edit Note",
+                    "schema": {
+                        "$ref": "#/definitions/update_note"
+                    }
+                }
+            ],
+            
+            "produces": [
+                "application/json"
+            ],
+            "responses": {
+                "202": {
+                    "description": "Update Note Done"
+                },
+                
+                "500": {
+                    "description": "Internal Server Error"
+                }
+            },
+            "security": [
+                {
+                    "JWT": []
+                }
+            ]
+        }
+    },
+
+    "/notes/{id}/archive": {
+        "put": {
+            "tags": [
+                "Notes"
+            ],
+            "description": "archive Notes",
+            "parameters": [
+                {
+                    "name": "id",
+                    "in": "path",
+                    "description": "archive Notes"
+                }
+            ],
+            "produces": [
+                "application/json"
+            ],
+            "responses": {
+                "200": {
+                    "description": "Note is archived."
+                },
+                "500": {
+                    "description": "Internal server error"
+                }
+            },
+            "security": [
+                {
+                    "JWT": []
+                }
+            ]
+        }
+    },
+    "/notes/{id}/trash": {
+        "put": {
+            "tags": [
+                "Notes"
+            ],
+            "description": "trash Notes",
+            "parameters": [
+                {
+                    "name": "id",
+                    "in": "path",
+                    "description": "trash Notes"
+                }
+            ],
+            "produces": [
+                "application/json"
+            ],
+            "responses": {
+                "200": {
+                    "description": " Note is added to trash."
+                },
+                "500": {
+                    "description": "Internal server error"
+                }
+            },
+            "security": [
+                {
+                    "JWT": []
+                }
+            ]
+        }
+      } 
+     },
+
+      
+   
+   "definitions": {
+       "User": {
+           "type": "object",
+           "properties": {
+               "firstname": {
+                   "type": "string"
+               },
+               "lastname": {
+                   "type": "string"
+               },
+               "email": {
+                   "type": "string"
+               },"password": {
+                   "type": "string"
+               }
+           }
+       },
+       "login":{
+         "type": "object",
+               "properties": {
+                   "email": {
+                       "type": "string"
+                   },"password": {
+                       "type": "string"
+                   }
+               }
+
+       },
+       "forgetPassword": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string"
+            }
+        }
+    },
+    "resetPassword": {
+        "type": "object",
+        "properties": {
+            "password": {
+                "type": "string"
+            }
+        }
+    },
+
+    "create_note": {
+        "type": "object",
+        "properties": {
+            "titel": {
+                "type": "string"
+            },
+            "description": {
+                "type": "string"
+            }
+         
+        }
+    },
+      
+    "update_note": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string"
+            },
+            "description": {
+                "type": "string"
+            }
+        }
+    }
+},
+
+   "securityDefinitions": {
+    "JWT": {
+        "type": "apiKey",
+        "name": "authorization",
+        "in": "header"
+    }
+}
+}
+
+
+
+       
+
+
+
+   
+      
